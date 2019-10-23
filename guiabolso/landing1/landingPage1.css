@@ -1,0 +1,146 @@
+@font-face{
+    font-family: axBold;
+    src: url('../Axiforma/Kastelov\ -\ Axiforma\ Bold.otf');
+}
+
+@font-face{
+    font-family: axMedium;
+    src: url('../Axiforma/Kastelov\ -\ Axiforma\ Medium.otf');
+}
+
+@font-face{
+    font-family: axBook;
+    src: url('../Axiforma/Kastelov\ -\ Axiforma\ Book.otf');
+}
+
+
+@font-face{
+    font-family: openRegular;
+    src: url('../Open_Sans/OpenSans-Regular.ttf');
+}
+
+.container {
+    background-color: white;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: #250048;
+    padding: 0px 10px 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-gui {
+    width: 60%;
+    margin-top: 40px;
+}
+
+.title-header {
+    font-size: 30px;
+    color: white;
+    width: 71%;
+    text-align: left;
+    font-family: axBold;
+    margin-top: 40px;
+}
+
+.span-bom {
+    color: #F9386A;
+}
+
+.position-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.info-text{
+    color: #333333;
+    width: 80%;
+    font-size: 18px;
+    font-family: openRegular;
+}
+
+.info-text-aproveite{
+    color: #00C1EB;
+    font-size: 20px;
+    font-family: axBold;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.info-text-instale{
+    width: 80%;
+    color: #250048;
+    font-size: 20px;
+    font-family: axMedium;
+    margin-bottom: 0px;
+}
+
+.aplicativo{
+    background-color: #250048;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-store{
+    margin-right: 15px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+.btn-mani{
+    background-color: #F9386A;
+    border-radius: 50px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 9px 30px 9px 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    
+}
+
+.p-button{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: axBook;
+}
+
+@media(max-width: 325px){
+    .title-header{
+        width: 80%;
+        font-size: 26px;
+    }
+    .info-text-aproveite{
+        width: 90%;
+        font-size: 18px;
+        margin-left: 25px;
+    }
+}

@@ -1,0 +1,199 @@
+@font-face {
+    font-family: axBold;
+    src: url('../Axiforma/Kastelov\ -\ Axiforma\ Bold.otf');
+}
+
+@font-face{
+    font-family: OpenRegular;
+    src: url('../Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: AxForm;
+    src: url('../Axiforma/Kastelov\ -\ Axiforma\ Medium.otf');
+}
+
+@font-face{
+    font-family: AxBook;
+    src: url('../Axiforma/Kastelov\ -\ Axiforma\ Book.otf');
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+.primeiroTexto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #00C1EB;
+    line-height: 32px;
+}
+
+.txt-tem{
+    margin-right: 2px;
+}
+.txt-menores{
+    margin-right: 8px;
+}
+
+.texto {
+    padding-top: 2px;
+    padding-bottom: 20px;
+    color: white;
+    width: 80%;
+    font-size: 26px;
+    font-family: axBold;
+}
+
+.taxas {
+    color: #250048;
+    font-family: axBold;
+}
+
+.segundoTexto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: black;
+    width: 80%;
+    font-size: 16pt;
+    font-family: OpenRegular;
+}
+
+.instale {
+    font-size: 25px;
+    font-family: axBold;
+    font-weight: bold;
+    color: #00C1EB;
+    width: 80%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+}
+
+.instale2 {
+    font-size: 23px;
+    font-family: axForm;
+    color: #250048;
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.baixar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #250048;
+    padding: 30px 0 30px 0;
+}
+
+.store-app{
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.faleConosco{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botão{
+  text-decoration: none;
+  font-family: AxBook;
+  font-size: 22px;
+  color: white;
+  background-color: #F9386A;
+  padding: 15px 45px 15px 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-items: space-around;
+}
+
+.p-button{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: AxBook;
+
+}
+.whats{
+    margin-top: 35px;
+}
+
+.guia{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    padding-left: 35px;
+}
+
+.icone{
+    height: 30px;
+    margin-right: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+@media(max-width:325px){
+    .texto{
+        width: 75%;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .texto2{
+         width: 75%;
+         font-size: 18px;
+         padding-bottom: 10px;
+    }
+
+    .instale{
+        width: 75%;
+        font-size: 20px;
+        margin-bottom: 0;
+        line-height: 30px;
+    }
+
+    .instale2{
+        width: 75%;
+        font-size: 20px;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+    .img{
+        height: 40px;
+    }
+
+    .botão{
+        font-size: 15px;
+        padding-right: 45px;
+    }
+
+    .icone{
+        height: 25px;
+    }
+
+    .primeiroTexto{
+        line-height: 26px;
+    }
+
+}

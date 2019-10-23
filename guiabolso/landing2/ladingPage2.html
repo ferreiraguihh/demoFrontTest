@@ -1,0 +1,86 @@
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Guia Bolso</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='./landingPage2.css'>
+    <script src='main.js'></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96535900-25"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-96535900-25');
+    </script>
+</head>
+
+<script>
+    function appStore() {
+        window.gtag('event', 'app', {
+            event_category: 'LP 2',
+            event_label: 'app store'
+        });
+    }
+    function googlePlay() {
+        window.gtag('event', 'app', {
+            event_category: 'LP 2',
+            event_label: 'Google Play',
+        });
+    }
+    function wpp() {
+        window.gtag('event', 'whatsapp', {
+            event_category: 'LP 2',
+            event_label: 'whatsapp',
+        });
+    }
+    function site() {
+        window.gtag('event', 'site', {
+            event_category: 'LP 2',
+            event_label: 'site'
+        });
+    }
+
+</script>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="../img/logo_guiabolso2.svg" class="logoGuia">
+        </div>
+        <div class="primeiroTexto">
+            <p class="texto">Quem tem o guiabolso <span class="txt-tem">tem mais que</span> <span class="txt-controle">controle financeiro:</span> 
+                <span class="taxas"> <span class="txt-menores">tem as menores</span> taxas de juros.</span>
+            </p>
+        </div>
+        <div class="segundoTexto">
+            <p class="texto2">Como usuário do Guiabolso você tem crédito facilitado, com as melhores condições do
+                mercado, para você
+                fazer o que quiser: comprar, investir ou pagar suas contas!</p>
+
+            <p class="instale">Instale o Guiabolso<br>
+                e contrate agora.</p>
+
+            <p class="instale2">Instale o Guiabolso</p>
+        </div>
+        <div class="baixar">
+            <a href="https://apps.apple.com/br/app/guiabolso-entenda-sua-grana/id891087489" class="store-app"
+                onclick="appStore()"><img src="../img/appstore.svg" class="img"></a>
+            <a href="https://play.google.com/store/apps/details?id=br.com.guiabolso&hl=pt-BR" class="store-play"
+                onclick="googlePlay()"><img src="../img/playstore.svg" class="img"></a>
+        </div>
+        <div class="faleConosco">
+            <a href="https://is.gd/IBXIDN" class="botão whats" onclick="wpp()"><img src="../img/whats.svg"
+                    class="icone">
+                <p class="p-button">FALE COM A GENTE</p>
+            </a>
+            <a href="https://www.guiabolso.com.br/" class="botão guia" onclick="site()"><img
+                    src="../img/g_guiabolso.svg" class="icone">
+                <p class="p-button">FALE COM A GENTE</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
