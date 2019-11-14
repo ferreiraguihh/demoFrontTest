@@ -1,0 +1,28 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.page-item{
+    border: 1px solid rgb(177, 177, 177);
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    border-radius: 4px;
+    color: #0062c4;
+}
+
+
+.btn-ligar{
+    border: 0px;
+    background-color: #FDB913;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 30%;
+}
